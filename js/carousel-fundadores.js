@@ -1,8 +1,9 @@
-$('.carousel-cover').owlCarousel({
+$('.carousel-fundadores').owlCarousel({
     loop: true,
     autoplay: true,
     autoplayTimeout:2000,
     autoplayHoverPause: true,
+    margin: 30,
     responsive: {
         0:{
             items: 1,
@@ -13,19 +14,19 @@ $('.carousel-cover').owlCarousel({
             nav: false
         },
         600:{
-            items: 1,
+            items: 2,
             nav: false
         },
         900:{
-            items: 1,
+            items: 3,
             nav: false
         },
         1140:{
-            items: 1,
+            items: 4,
             nav: false
         },
         1340:{
-            items: 1,
+            items: 4,
             nav: false
         }
     }    
