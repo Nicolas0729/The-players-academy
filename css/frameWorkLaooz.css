@@ -256,6 +256,12 @@
     display: flex;
     align-items: center;
 }
+.d-flex-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 
 .order-2 { order: 2;}
 
@@ -411,6 +417,11 @@
 .margin-right-50 { margin-right: 50px; }
 .margin-bottom-50 { margin-bottom: 50px; }
 .margin-left-50 { margin-left: 50px; }
+
+.margin-top-90 { margin-top: 90px; }
+.margin-right-90 { margin-right: 90px; }
+.margin-bottom-90 { margin-bottom: 90px; }
+.margin-left-90 { margin-left: 90px; }
 
 .margin-top-100 { margin-top: 100px; }
 .margin-right-100 { margin-right: 100px; }

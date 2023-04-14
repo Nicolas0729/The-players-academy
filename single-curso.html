@@ -30,7 +30,7 @@
     
 
     <!-- ------------------HEADER---------------------- -->
-    <header class="header width-100 position-fixed z-index-99 top-0">
+    <header class="header header-single width-100 position-fixed z-index-99 top-0">
         <div class="content-header width-100 width-lg margin-auto content-between padding-x-20 transition-5">
             <div class="left-header d-flex gap-20">
                 <div class="logo-header">
@@ -62,7 +62,7 @@
                     <a href="#" class="icon-car color-white font-size-20"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="item-right">
-                    <a href="#" class="btn-log border-2 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600">Login | Register</a>
+                    <a href="#" class="btn-log font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600 transition-5">Login | Register</a>
                 </div>
             </div>
         </div>
@@ -70,18 +70,36 @@
 
 
     <!-- -----------------------HEAD-SINGLE---------------------- -->
-    <div class="head-sg width-100 margin-top-100 border-bottom-1">
-        <div class="content-sg width-100 width-lg margin-auto content-between padding-x-40">
-            <div class="left-sg">
+    <div class="head-sg width-100 margin-top-90 bg-secundario ">
+        <div class="content-sg width-100 width-lg margin-auto d-flex-column padding-x-40">
+            <div class="head-curso d-flex gap-50 margin-bottom-20">
+                <div class="item-head d-flex gap-10">
+                    <div class="img-tutor">
+                        <img src="img/ment-01.jpg" alt="" class="width-50px height-50px border-radius-md">
+                    </div>
+                    <div class="text-tutor">
+                        <p class="cargo font-size-14 color-text">Instructor</p>
+                        <h3 class="name-tutor font-size-18 font-weight-600 color-white">Joe Bonilla</h3>
+                    </div>
+                </div>
+                <div class="item-head d-flex gap-10">
+                    <div class="img-tutor">
+                        <i class="fa-solid fa-bookmark color-white font-size-40"></i>    
+                    </div>
+                    <div class="text-tutor">
+                        <p class="cargo font-size-14 color-text">Categoría</p>
+                        <h3 class="name-tutor font-size-18 font-weight-600 color-white">Comercio</h3>
+                    </div>
+                </div>
             </div>
-            <div class="right-sg">
-                <ul class="migas d-flex gap-10 color-black">
-                    <li><a href="#" class="link-1 color-black">Home</a></li>
-                    <li><p><i class="fa-solid fa-chevron-right"></i></p></li>
-                    <li><a href="#" class="link-1 color-black">Galería de cursos</a></li>
-                    <li><p><i class="fa-solid fa-chevron-right"></i></p></li>
-                    <li><p class="color-text">Fundamentos del diseño de la experiencia del usuario</p></li>
-                </ul>
+            <div class="the-curse border-bottom-1 margin-bottom-20 width-60">
+                <h1 class="title-curse font-size-25 font-weight-700 color-white margin-bottom-10">Finanzas para deportistas</h1>
+            </div>
+            <div class="widgets-curse d-flex gap-30">
+                <p class="item-widget color-white font-size-16"><i class="fa-solid fa-clock color-principal margin-right-10"></i> 1 hora</p>
+                <p class="item-widget color-white font-size-16"><i class="fa-solid fa-layer-group color-principal margin-right-10"></i> Todos los niveles</p>
+                <p class="item-widget color-white font-size-16"><i class="fa-solid fa-question color-principal margin-right-10"></i> 1 Cuestionario</p>
+                <p class="item-widget color-white font-size-16"><i class="fa-solid fa-user-graduate color-principal margin-right-10"></i> 0 Estudiantes</p>
             </div>
         </div>
     </div>
@@ -91,176 +109,121 @@
     <div class="curse-sec width-100">
         <div class="content-curse width-100 width-lg margin-auto padding-x-50">
             <div class="curse-action">
-                <div class="head-curse margin-bottom-50 d-flex-column">
-                    <p class="tag-curse font-size-16 font-weight-600 bg-principal color-white padding-x-5 padding-y-40 margin-bottom-20 border-radius-15">FEATURED</p>
-                    <h1 class="title-curse-sg font-size-40 font-weight-700 color-black">Fundamentos del diseño de la experiencia del usuario</h1>
+                <div class="head-curse margin-bottom-30">
+                    <h2 class="title-section font-size-30 font-weight-700 color-black">Contenido del curso</h2>
                 </div>
-                <div class="widgets-curse width-100 content-between margin-bottom-50">
-                    <div class="left-widget d-flex gap-40">
-                        <div class="item_w">
-                            <p class="title-item font-size-18 color-text">Nivel del curso</p>
-                            <h3 class="name-item font-size-18 font-weight-700 color-black">Experto</h3>
+                <div class="drop">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button collapsed font-size-20 font-weight-700 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                1. Antes de comenzar
+                            </button>
+                        </h2>  
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body d-flex-column gap-10">
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Introducción al curso</h3>
+                                    <i class="fa-solid fa-lock "></i>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item_w">
-                            <p class="title-item font-size-18 color-text">Duración</p>
-                            <h3 class="name-item font-size-18 font-weight-700 color-black">04h 30m 15s</h3>
                         </div>
-                        <div class="item_w">
-                            <p class="title-item font-size-18 color-text">Secciones</p>
-                            <h3 class="name-item font-size-18 font-weight-700 color-black">7</h3>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed font-size-20 font-weight-700 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                2. Problemáticas y necesidades financieras de un deportista
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body d-flex-column gap-10">
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Relació del deportista con el dinero</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Problemáticas financieras en las etapas de un deportista</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed font-size-20 font-weight-700 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                3. Conceptos financieros
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body d-flex-column gap-10">
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Salarios brutos vs. salarios netos</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Deducciones y tributación</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Activos, pasivos, patrimonio, costos y gastos</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Tasas de interés</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed font-size-20 font-weight-700 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                4. Tema siguiente
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body d-flex-column gap-10">
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Salarios brutos vs. salarios netos</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Deducciones y tributación</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Activos, pasivos, patrimonio, costos y gastos</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                                <div class="section-c content-between width-100 bg-gris">
+                                    <h3 class="name-section font-size-18"><i class="fa-solid fa-file color-principal margin-right-10"></i>Tasas de interés</h3>
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
-                    <div class="right-widget d-flex gap-20">
-                        <a href="#" class="btn-shop font-size-18 font-weight-600 color-principal border-3-principal border-radius-15 padding-x-10 padding-y-30">Comprar ahora</a>
-                        <a href="#" class="btn-cart font-size-18 font-weight-600 color-white bg-principal border-3-principal border-radius-15 padding-x-10 padding-y-30">Agregar al carrito</a>
-                    </div>
                 </div>
-                <div class="embed-curse width-100 margin-bottom-50">
-                    <iframe class="video-intro width-100 height-600px border-radius-15" src="https://www.youtube.com/embed/B4tlsPY6nBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="content-sections width-100">
-                    <div class="head-sections width-100 margin-bottom-30">
-                        <h2 class="title-sections font-size-30 font-weight-700 color-black">Contenido del curso</h2>
-                    </div>
-                    <div class="drop-curso width-100">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button collapsed font-size-25 font-weight-700 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                                    Comenzando el curso
-                                </button>
-                            </h2>  
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body d-flex-column gap-15">
-                                    <div class="video-curso d-flex gap-50 width-100">
-                                        <div class="img-video">
-                                            <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                        </div>
-                                        <div class="text-video">
-                                            <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                            <p class="duration font-size-20 color-text">00:05:00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed font-size-25 font-weight-700 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                    La breve
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body d-flex-column gap-15">
-                                    <div class="video-curso d-flex gap-50 border-bottom-1 padding-bottom-15 width-100">
-                                        <div class="img-video">
-                                            <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                        </div>
-                                        <div class="text-video">
-                                            <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                            <p class="duration font-size-20 color-text">00:05:00</p>
-                                        </div>
-                                    </div>
-                                    <div class="video-curso d-flex gap-50 padding-bottom-1 width-100">
-                                        <div class="img-video">
-                                            <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                        </div>
-                                        <div class="text-video">
-                                            <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                            <p class="duration font-size-20 color-text">00:05:00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed font-size-25 font-weight-700 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                    ¿Si no tengo dominio puedo usar la plataforma?
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body d-flex-column gap-15">
-                                    <div class="video-curso d-flex gap-50 border-bottom-1 padding-bottom-15 width-100">
-                                        <div class="img-video">
-                                            <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                        </div>
-                                        <div class="text-video">
-                                            <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                            <p class="duration font-size-20 color-text">00:05:00</p>
-                                        </div>
-                                    </div>
-                                    <div class="video-curso d-flex gap-50 padding-bottom-1 width-100">
-                                        <div class="img-video">
-                                            <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                        </div>
-                                        <div class="text-video">
-                                            <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                            <p class="duration font-size-20 color-text">00:05:00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                <button class="accordion-button collapsed font-size-25 font-weight-700 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                    ¿Puedo tener mi juego en una App?
-                                </button>
-                                </h2>
-                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                                    <div class="accordion-body d-flex-column gap-15">
-                                        <div class="video-curso d-flex gap-50 border-bottom-1 padding-bottom-15 width-100">
-                                            <div class="img-video">
-                                                <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                            </div>
-                                            <div class="text-video">
-                                                <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                                <p class="duration font-size-20 color-text">00:05:00</p>
-                                            </div>
-                                        </div>
-                                        <div class="video-curso d-flex gap-50 padding-bottom-1 width-100">
-                                            <div class="img-video">
-                                                <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                            </div>
-                                            <div class="text-video">
-                                                <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                                <p class="duration font-size-20 color-text">00:05:00</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-                                <button class="accordion-button collapsed font-size-25 font-weight-700 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                                    ¿Puedo moderar usuarios?
-                                </button>
-                                </h2>
-                                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-                                    <div class="accordion-body d-flex-column gap-15">
-                                        <div class="video-curso d-flex gap-50 border-bottom-1 padding-bottom-15 width-100">
-                                            <div class="img-video">
-                                                <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                            </div>
-                                            <div class="text-video">
-                                                <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                                <p class="duration font-size-20 color-text">00:05:00</p>
-                                            </div>
-                                        </div>
-                                        <div class="video-curso d-flex gap-50 padding-bottom-1 width-100">
-                                            <div class="img-video">
-                                                <img src="img/img-curse-04.jpg" alt="" class="img-section width-200px border-radius-15">
-                                            </div>
-                                            <div class="text-video">
-                                                <h3 class="title-section font-size-25 font-weight-600 color-black">Introducción al Curso de Experiencia de Usuario</h3>
-                                                <p class="duration font-size-20 color-text">00:05:00</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+            <div class="sidebar-curse">
+                <div class="content-sidebar-c d-flex-column">
+                    <div class="card-curse widgets-curse overflow-hidden border-radius-15 margin-bottom-50">
+                        <div class="img-card-c">
+                            <img src="img/curse.jpg" alt="" class="width-100">
                         </div>
+                        <div class="text-card-c bg-white padding-20 text-center d-flex-column d-flex-center">
+                            <h2 class="price-curse font-size-30 font-weight-700 color-secundario margin-bottom-20 margin-bottom-20">$50.000</h2>
+                            <a href="#" class="btn-shppper font-size-16 font-weight-600 color-white bg-principal padding-x-10 border-radius-15 width-100 d-flex-center">Comprar ahora</a>
+                        </div>
+                    </div>
+                    <div class="camp-search width-100">
+                        <div class="head-camp margin-bottom-10">
+                            <h2 class="title-camp font-size-18 font-weight-600 color-secundario">Buscar</h2>
+                        </div>
+                        <form action="" class="form-camp d-flex-right width-100 overflow-hidden">
+                            <input type="search" class="position-relative width-100">
+                            <a href="#" class="btn-camp position-absolute">Buscar</a>
+                        </form>
                     </div>
                 </div>
             </div>
