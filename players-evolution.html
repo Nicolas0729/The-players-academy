@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- ---------------ANIMATE_AOS---------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- ----------LINKS OWL CAROUSEL----------------- -->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
@@ -37,12 +40,9 @@
                     <a href="index.html"><img src="img/logo-white.png" alt="" class="width-100px d-flex transition-5"></a>
                 </div>
                 <div class="menu-header">
-                    <nav class="navigator d-flex gap-20 font-size-14 font-weight-600">
-                        <a href="index.html" class="link-menu color-white">Home</a>
-                        <a href="galeria-cursos.html" class="link-menu color-white">Galería de cursos</a>
-                        <a href="blog.html" class="link-menu color-white">Blog</a>
-                        <a href="eventos.html" class="link-menu color-white">Eventos</a>
-                        <a href="quienes-somos.html" class="link-menu color-white">Quiénes somos</a>
+                    <nav class="navigator d-flex gap-20 font-size-16 font-weight-600">
+                        <a href="#" class="link-menu color-white">Deportistas</a>
+                        <a href="#" class="link-menu color-white">Entidades</a>
                         <div class="dropdown">
                             <button class="link-menu drop-menu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               Programas
@@ -52,8 +52,9 @@
                               <li><a class="dropdown-item" href="players-evolution.html">The Players Evolution</a></li>
                               <li><a class="dropdown-item" href="players-business.html">The Players Business</a></li>
                             </ul>
-                          </div>
-                        <a href="preguntas-frecuentes.html" class="link-menu color-white">Preguntas frecuentes</a>
+                        </div>
+                        <a href="eventos.html" class="link-menu color-white">Eventos</a>
+                        <a href="#" class="link-menu color-white">Membresias</a>
                     </nav>
                 </div>
             </div>
@@ -62,7 +63,7 @@
                     <a href="#" class="icon-car color-white font-size-20"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="item-right">
-                    <a href="#" class="btn-log border-2 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600">Login | Register</a>
+                    <a href="#" class="btn-log border-3 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600 transition-5">Login | Register</a>
                 </div>
             </div>
         </div>
@@ -75,11 +76,13 @@
             <img src="img/banner-evolution.jpg" alt="" class="width-100 d-flex">
         </div>
         <div class="absolute-cover position-absolute width-100 height-100 d-flex">
-            <div class="content-cover width-100 width-lg margin-auto d-flex-column gap-100">
+            <div class="content-cover width-100 width-lg margin-auto d-flex-column gap-50">
                 <div class="text-cover padding-top-150">
-                    <h1 class="title-cover color-white font-weight-700 font-size-50 margin-bottom-50">Enfócate en lo que <br> sabes hacer!</h1>
-                    <h3 class="slogan-cover color-white font-weight-600 font-size-30 margin-bottom-50">Del resto nos encargamos nosotros.</h3>
-                    <a href="#" class="btn-cover font-size-18 padding-x-10 padding-y-40 border-radius-10 color-white font-weight-600 bg-principal">Contacta un asesor</a>
+                    <h1 class="title-cover color-white font-weight-700 font-size-50 margin-bottom-20" data-aos="fade-right" data-aos-duration="800">Enfócate en lo que <br> sabes hacer!</h1>
+                    <h3 class="slogan-cover color-white font-weight-600 font-size-30 margin-bottom-10" data-aos="fade-right" data-aos-duration="1200">Del resto nos encargamos nosotros.</h3>
+                </div>
+                <div class="mid-cover d-flex" data-aos="fade-right" data-aos-duration="1500">
+                    <a href="#" class="btn-cover transition-5 font-size-18 padding-x-10 padding-y-40 border-radius-10 color-white font-weight-600 bg-principal">Empieza ahora</a>
                 </div>
             </div>
         </div>
@@ -106,18 +109,18 @@
                     </div>
                 </div>
                 <div class="right-access padding-50 d-flex-column gap-40">
-                    <div class="item-access width-100 border-radius-15 padding-30">
+                    <div class="item-access width-100 border-radius-15 padding-30" data-aos="fade-up" data-aos-duration="800">
                         <h2 class="title-it margin-bottom-10">Asesoría legal</h2>
                         <p class="paragraph-it">Transferencias y contrataciones - Litigios - Derechos de imágen -
                             Propiedad intelectual - Asuntos laborales y migratorios.</p>
                     </div>
-                    <div class="item-access width-100 border-radius-15 padding-30">
+                    <div class="item-access width-100 border-radius-15 padding-30" data-aos="fade-up" data-aos-duration="1200">
                         <h2 class="title-it margin-bottom-10">Planeación financiera & tributaria</h2>
                         <p class="paragraph-it">Impuestos internacionales - Impuestos locales - 
                             Planeación y Cumplimiento tributario - Aseguramiento de la 
                             integridad financiera - Inversiones - Litigios tributarios.</p>
                     </div>
-                    <div class="item-access width-100 border-radius-15 padding-30">
+                    <div class="item-access width-100 border-radius-15 padding-30" data-aos="fade-up" data-aos-duration="1500">
                         <h2 class="title-it margin-bottom-10">Marketing & Publicidad</h2>
                         <p class="paragraph-it">Derechos de imagen - Patrocinios - Marca personal deportiva - 
                             Manejo de medios de comunicación - Redes sociales - Campañas 
@@ -144,8 +147,81 @@
                     fuera del terreno de juego.</p>
                 <p class="paragarph-expert font-size-18 margin-bottom-20">Enfócate en lo que sabes hacer, del resto nos encargamos nosotros!</p>
             </div>
-            <div class="img-expert width-100 height-350px border-radius-md padding-40 bg-principal">
-                <img src="img/laptop.png" alt="" class="width-100">
+            <div class="img-expert d-flex-right">
+                <div class="img-circle width-80 height-280px border-radius-md padding-40 bg-principal" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="img/laptop.png" alt="" class="width-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------CUESTTIONS--------------- -->
+    <div class="cuestions width-100">
+        <div class="content-cuestions width-100 width-lg margin-auto padding-x-100">
+            <div class="head-cuestions margin-bottom-30">
+                <h2 class="title-cuestions font-size-35 font-weight-700 color-secundario">Preguntas frecuentes</h2>
+            </div>
+            <div class="accordion drop-cuest" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button collapsed font-size-18 font-weight-600 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been?
+                        </button>
+                    </h2>  
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body d-flex-column gap-15">
+                            <p class="descrip-cuest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nisi officia facilis perspiciatis possimus non quae provident, consectetur illo blanditiis ab vero voluptate deserunt accusantium ducimus eos laborum? Aspernatur, beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed font-size-18 font-weight-600 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body d-flex-column gap-15">
+                        <p class="descrip-cuest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nisi officia facilis perspiciatis possimus non quae provident, consectetur illo blanditiis ab vero voluptate deserunt accusantium ducimus eos laborum? Aspernatur, beatae.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed font-size-18 font-weight-600 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body d-flex-column gap-15">
+                        <p class="descrip-cuest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nisi officia facilis perspiciatis possimus non quae provident, consectetur illo blanditiis ab vero voluptate deserunt accusantium ducimus eos laborum? Aspernatur, beatae.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed font-size-18 font-weight-600 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        ¿Puedo tener mi juego en una App?
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body d-flex-column gap-15">
+                            <p class="descrip-cuest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nisi officia facilis perspiciatis possimus non quae provident, consectetur illo blanditiis ab vero voluptate deserunt accusantium ducimus eos laborum? Aspernatur, beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed font-size-18 font-weight-600 border-radius-15 color-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                        ¿Puedo tener mi juego en una App?
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body d-flex-column gap-15">
+                            <p class="descrip-cuest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nisi officia facilis perspiciatis possimus non quae provident, consectetur illo blanditiis ab vero voluptate deserunt accusantium ducimus eos laborum? Aspernatur, beatae.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -169,59 +245,6 @@
         </div>
     </div>
 
-    <!-- ----------------------GRID-ALIADOS--------------------- -->
-    <div class="grid-aliados width-100 bg-secundario">
-        <div class="content-aliados width-100 width-lg margin-auto padding-x-50">
-            <div class="head-aliados width-100 text-center margin-bottom-40">
-                <h2 class="title-alias font-size-30 font-weight-600 color-white margin-bottom-20">Nuestros aliados</h2>
-                <span class="separator width-150px height-3px bg-white d-flex margin-auto"></span>
-            </div> 
-            <div class="row-imgs width-100 grid-column-7 gap-50">
-                <div class="img-alias width-100">
-                    <img src="img/Alinea.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Cruyff.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Adidas.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Bodytech.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Futness.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Openenglish.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Openjunior.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Next_u.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/The_coach.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Mta.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Brandcop.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Smatch.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Unad.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Ceipa.png" alt="" class="width-100">
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- --------------------FOOTER------------------- -->
     <footer class="footer bg-secundario">
@@ -291,6 +314,10 @@
             </div>
         </div>
     </footer>
+
+    <!-- -------------------ANIMATE_AOS---------------------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
     <!-- -----------------cdn slider carousel--------------- -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 

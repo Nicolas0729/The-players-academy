@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- ---------------ANIMATE_AOS---------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- ----------LINKS OWL CAROUSEL----------------- -->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
@@ -37,12 +40,9 @@
                     <a href="index.html"><img src="img/logo-white.png" alt="" class="width-100px d-flex transition-5"></a>
                 </div>
                 <div class="menu-header">
-                    <nav class="navigator d-flex gap-20 font-size-14 font-weight-600">
-                        <a href="index.html" class="link-menu color-white">Home</a>
-                        <a href="galeria-cursos.html" class="link-menu color-white">Galería de cursos</a>
-                        <a href="blog.html" class="link-menu color-white">Blog</a>
-                        <a href="eventos.html" class="link-menu color-white">Eventos</a>
-                        <a href="quienes-somos.html" class="link-menu color-white">Quiénes somos</a>
+                    <nav class="navigator d-flex gap-20 font-size-16 font-weight-600">
+                        <a href="#" class="link-menu color-white">Deportistas</a>
+                        <a href="#" class="link-menu color-white">Entidades</a>
                         <div class="dropdown">
                             <button class="link-menu drop-menu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               Programas
@@ -52,8 +52,9 @@
                               <li><a class="dropdown-item" href="players-evolution.html">The Players Evolution</a></li>
                               <li><a class="dropdown-item" href="players-business.html">The Players Business</a></li>
                             </ul>
-                          </div>
-                        <a href="preguntas-frecuentes.html" class="link-menu color-white">Preguntas frecuentes</a>
+                        </div>
+                        <a href="eventos.html" class="link-menu color-white">Eventos</a>
+                        <a href="#" class="link-menu color-white">Membresias</a>
                     </nav>
                 </div>
             </div>
@@ -62,7 +63,7 @@
                     <a href="#" class="icon-car color-white font-size-20"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="item-right">
-                    <a href="#" class="btn-log border-2 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600">Login | Register</a>
+                    <a href="#" class="btn-log border-3 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600 transition-5">Login | Register</a>
                 </div>
             </div>
         </div>
@@ -76,11 +77,13 @@
             <img src="img/education.jpg" alt="" class="width-100 d-flex">
         </div>
         <div class="absolute-cover position-absolute width-100 height-100 d-flex">
-            <div class="content-cover width-100 width-lg margin-auto d-flex-column gap-100">
+            <div class="content-cover width-100 width-lg margin-auto d-flex-column gap-50">
                 <div class="text-cover padding-top-150">
-                    <h1 class="title-cover color-white font-weight-700 font-size-50 margin-bottom-50">Aprende sin límites!</h1>
-                    <h3 class="slogan-cover color-white width-60 font-weight-600 font-size-30 margin-bottom-50">Adquiere nuevos conocimientos y desarrolla habilidades en las áreas más demandas en la carrera de un deportista.</h3>
-                    <a href="#" class="btn-cover font-size-18 padding-x-10 padding-y-40 border-radius-10 color-white font-weight-600 bg-principal">Contacta un asesor</a>
+                    <h1 class="title-cover color-white font-weight-700 font-size-50 margin-bottom-50" data-aos="fade-right" data-aos-duration="800">Aprende sin límites!</h1>
+                    <h3 class="slogan-cover color-white width-60 font-weight-600 font-size-30 margin-bottom-10" data-aos="fade-right" data-aos-duration="1200">Adquiere nuevos conocimientos y desarrolla habilidades en las áreas más demandas en la carrera de un deportista.</h3>
+                </div>
+                <div class="mid-cover d-flex" data-aos="fade-right" data-aos-duration="1500">
+                    <a href="#" class="btn-cover transition-5 font-size-18 padding-x-10 padding-y-40 border-radius-10 color-white font-weight-600 bg-principal">Empieza ahora</a>
                 </div>
             </div>
         </div>
@@ -90,22 +93,22 @@
     <div class="info-box width-100">
         <div class="content-info width-100 width-lg margin-auto padding-x-100">
             <div class="row-grid grid-column-3 gap-30">
-                <div class="grid-info">
+                <div class="grid-info" data-aos="fade-up" data-aos-duration="500">
                     <h2 class="title-grid font-size-35 color-black">La primera <span class="color-blue color-principal">plataforma de educación</span> para deportistas</h2>
                 </div>
-                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center">
+                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center" data-aos="fade-up" data-aos-duration="700">
                     <h2 class="title-grid color-white font-size-23"><span class="color-blue color-principal">+40 mentores</span> que te acompañan en tu proceso de aprendizaje</h2>
                 </div>
-                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center">
+                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center" data-aos="fade-up" data-aos-duration="900">
                     <h2 class="title-grid color-white font-size-23">Profesionales expertos enseñan desde su conocimiento y experiencia</h2>
                 </div>
-                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center">
+                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center" data-aos="fade-up" data-aos-duration="1000">
                     <h2 class="title-grid color-white font-size-23"><span class="color-blue color-principal">9 Academias</span> para los temas más demandados por los deportistas</h2>
                 </div>
-                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center">
+                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center" data-aos="fade-up" data-aos-duration="1300">
                     <h2 class="title-grid color-white font-size-23"><span class="color-blue color-principal">+20 rutas</span> de aprendizaje para adquirir nuevos conocimientos</h2>
                 </div>
-                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center">
+                <div class="grid-info padding-30 bg-secundario border-radius-15 text-center" data-aos="fade-up" data-aos-duration="1500">
                     <h2 class="title-grid color-white font-size-23"><span class="color-blue color-principal">+100 cursos</span> virtuales para formar deportistas integrales</h2>
                 </div>
             </div>
@@ -117,18 +120,18 @@
         <div class="content-ceo width-100 width-lg margin-auto padding-x-100">
             <div class="row-ceo">
                 <div class="box-text bg-white border-radius-15 padding-50 text-center">
-                    <p class="comment-ceo font-size-22 margin-bottom-20"><i class="fa-solid fa-quote-left font-size-40 color-principal margin-right-20"></i>En muchas ocasiones los deportistas son juzgados y 
+                    <p class="comment-ceo font-size-22 margin-bottom-20"><i class="fa-solid fa-quote-left font-size-40 color-principal margin-right-20" data-aos="fade-right" data-aos-duration="800"></i>En muchas ocasiones los deportistas son juzgados y 
                         señalados por diversas situaciones que nunca les 
                         enseñaron a manejar; pero llegó el momento de 
                         aprender! Comienza a transformar tu carrera deportiva 
                         adquiriendo conocimientos específicos y necesarios para 
-                        ser un deportista integral.<i class="fa-solid fa-quote-right font-size-40 color-principal margin-left-20"></i>
+                        ser un deportista integral.<i class="fa-solid fa-quote-right font-size-40 color-principal margin-left-20" data-aos="fade-left" data-aos-duration="500"></i>
                     </p>
                     <h2 class="title-ceo font-size-22 color-black margin-bottom-20">Jorge Aguirre</h2>
                     <h3 class="subtitle-ceo font-size-23 font-weight-400">CEO & Co-Founder The Players Academy</h3>
                 </div>
                 <div class="img-ceo text-right">
-                    <img src="img/ceo.webp" alt="" class="width-80">
+                    <img src="img/ceo.webp" alt="" class="width-80" data-aos="fade-up" data-aos-duration="800">
                 </div>
             </div>
         </div>
@@ -143,7 +146,7 @@
             </div>
             <div class="row-qs">
                 <div class="item-qs d-flex-right margin-bottom-100">
-                    <div class="img-educ bg-secundario width-340px height-300px d-flex padding-30 text-center">
+                    <div class="img-educ bg-secundario width-340px height-300px d-flex padding-30 text-center" data-aos="fade-up" data-aos-duration="800">
                         <img src="img/education-01.webp" alt="" class="width-80 margin-auto">
                     </div>
                     <div class="text-qs width-900px padding-100 border-radius-15">
@@ -163,7 +166,7 @@
                             escenarios y los futuros retos que puedes enfrentar en la consecución de tus 
                             metas como deportista. </p>
                     </div>
-                    <div class="img-educ-02 bg-secundario width-340px height-300px d-flex padding-30 text-center">
+                    <div class="img-educ-02 bg-secundario width-340px height-300px d-flex padding-30 text-center" data-aos="fade-up" data-aos-duration="800">
                         <img src="img/education-02.webp" alt="" class="width-80 margin-auto">
                     </div>
                 </div>
@@ -175,6 +178,9 @@
     <!-- ---------------------CUESTTIONS--------------- -->
     <div class="cuestions width-100">
         <div class="content-cuestions width-100 width-lg margin-auto padding-x-100">
+            <div class="head-cuestions margin-bottom-30">
+                <h2 class="title-cuestions font-size-35 font-weight-700 color-secundario">Preguntas frecuentes</h2>
+            </div>
             <div class="accordion drop-cuest" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -290,59 +296,6 @@
         </div>
     </div>
 
-    <!-- ----------------------GRID-ALIADOS--------------------- -->
-    <div class="grid-aliados width-100 bg-secundario">
-        <div class="content-aliados width-100 width-lg margin-auto padding-x-50">
-            <div class="head-aliados width-100 text-center margin-bottom-40">
-                <h2 class="title-alias font-size-30 font-weight-600 color-white margin-bottom-20">Nuestros aliados</h2>
-                <span class="separator width-150px height-3px bg-white d-flex margin-auto"></span>
-            </div> 
-            <div class="row-imgs width-100 grid-column-7 gap-50">
-                <div class="img-alias width-100">
-                    <img src="img/Alinea.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Cruyff.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Adidas.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Bodytech.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Futness.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Openenglish.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Openjunior.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Next_u.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/The_coach.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Mta.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Brandcop.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Smatch.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Unad.png" alt="" class="width-100">
-                </div>
-                <div class="img-alias width-100">
-                    <img src="img/Ceipa.png" alt="" class="width-100">
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- --------------------FOOTER------------------- -->
     <footer class="footer bg-secundario">
@@ -416,6 +369,10 @@
     <!-- -----------------cdn slider carousel--------------- -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- -------------------ANIMATE_AOS---------------------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
     <!-- JavaScript Bundle with Popper Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

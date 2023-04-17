@@ -68,7 +68,7 @@ body button {
     font-weight: 600;
 }
 
-/* ------------------BOTONES------------------- */
+/* ------------------BOTONES-HOVER------------------- */
 .link-menu {
     transition: 0.3s;
 }
@@ -99,6 +99,13 @@ body button {
 .btn-cards:hover {
     padding: 10px 50px;
     color: var(--color_white);
+}
+.btn-submit:hover {
+    color: var(--color_white);
+}
+.btn-reserv:hover {
+    color: var(--color_white);
+    padding: 10px 50px;
 }
 
 
@@ -192,8 +199,17 @@ body button {
     padding: 5px 50px;
 }
 
+/* ---------------CARD_------------------ */
+.card_:hover .img-card img {
+    transform: scale(1.1);
+}
 
 
+/* ---------------ITEM-NOTE--------------- */
+.item-note:hover {
+    background-color: var(--fondo_grid_claro);
+    box-shadow: none;
+}
 
 
 .card_, .box-promo, .item-curse, .video-intro, 

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- ---------------ANIMATE_AOS---------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- ----------------BOOTSTRAP-------------- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -37,12 +40,9 @@
                     <a href="index.html"><img src="img/logo-white.png" alt="" class="width-100px d-flex transition-5"></a>
                 </div>
                 <div class="menu-header">
-                    <nav class="navigator d-flex gap-20 font-size-14 font-weight-600">
-                        <a href="index.html" class="link-menu color-white">Home</a>
-                        <a href="galeria-cursos.html" class="link-menu color-white">Galería de cursos</a>
-                        <a href="blog.html" class="link-menu color-white">Blog</a>
-                        <a href="eventos.html" class="link-menu color-white">Eventos</a>
-                        <a href="quienes-somos.html" class="link-menu color-white">Quiénes somos</a>
+                    <nav class="navigator d-flex gap-20 font-size-16 font-weight-600">
+                        <a href="#" class="link-menu color-white">Deportistas</a>
+                        <a href="#" class="link-menu color-white">Entidades</a>
                         <div class="dropdown">
                             <button class="link-menu drop-menu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               Programas
@@ -52,8 +52,9 @@
                               <li><a class="dropdown-item" href="players-evolution.html">The Players Evolution</a></li>
                               <li><a class="dropdown-item" href="players-business.html">The Players Business</a></li>
                             </ul>
-                          </div>
-                        <a href="preguntas-frecuentes.html" class="link-menu color-white">Preguntas frecuentes</a>
+                        </div>
+                        <a href="eventos.html" class="link-menu color-white">Eventos</a>
+                        <a href="#" class="link-menu color-white">Membresias</a>
                     </nav>
                 </div>
             </div>
@@ -62,7 +63,7 @@
                     <a href="#" class="icon-car color-white font-size-20"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="item-right">
-                    <a href="#" class="btn-log border-2 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600">Login | Register</a>
+                    <a href="#" class="btn-log border-3 font-size-14 padding-x-5 padding-y-20 border-radius-10 color-white font-weight-600 transition-5">Login | Register</a>
                 </div>
             </div>
         </div>
@@ -96,10 +97,10 @@
                         <h2 class="title-event font-size-30 font-weight-700 color-black margin-bottom-5">Free Webinar. Relación laboral en el deporte</h2>
                         <p class="date-event font-size-16 color-text margin-bottom-50">3 de may, 8:00 p. m. - 9:30 p. m. Webinar</p>
                         <p class="descrip-evetnt font-size-20 margin-bottom-20">Conoce los aspectos más importantes sobre la relación laboral en el deporte con uno de los abogados más reconocidos en el fútbol, Joe Bonilla.</p>
-                        <a href="single-evento.html" class="btn-reserv font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
+                        <a href="single-evento.html" class="btn-reserv transition-5 font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
                     </div>
                     <div class="img-mentor">
-                        <img src="img/ment-01.jpg" alt="" class="img-ment width-380px heigth-380px border-radius-md">
+                        <img src="img/ment-01.jpg" alt="" class="img-ment width-380px heigth-380px border-radius-md" data-aos="fade-up" data-aos-duration="800">
                     </div>
                 </div>
                 <div class="item-event width-100">
@@ -107,10 +108,10 @@
                         <h2 class="title-event font-size-30 font-weight-700 color-black margin-bottom-5">Free Webinar. Inteligencia financiera para deportistas</h2>
                         <p class="date-event font-size-16 color-text margin-bottom-50">17 de may, 8:00 p. m. - 9:30 p. m. Webinar</p>
                         <p class="descrip-evetnt font-size-20 margin-bottom-20">Conoce los aspectos más importantes sobre las finanzas personales para deportistas con Lucas Jaramillo, fundador de Alinea Sports Management, una de las agencias más grandes de representación de deportistas en Colombia.</p>
-                        <a href="single-evento.html" class="btn-reserv font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
+                        <a href="single-evento.html" class="btn-reserv transition-5 font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
                     </div>
                     <div class="img-mentor">
-                        <img src="img/ment-02.jpg" alt="" class="img-ment width-380px heigth-380px border-radius-md">
+                        <img src="img/ment-02.jpg" alt="" class="img-ment width-380px heigth-380px border-radius-md" data-aos="fade-up" data-aos-duration="800">
                     </div>
                 </div>
                 <div class="item-event width-100">
@@ -118,10 +119,10 @@
                         <h2 class="title-event font-size-30 font-weight-700 color-black margin-bottom-5">Free Webinar. Principios de la psicología deportiva</h2>
                         <p class="date-event font-size-16 color-text margin-bottom-50">17 de may, 8:00 p. m. - 9:30 p. m. Webinar</p>
                         <p class="descrip-evetnt font-size-20 margin-bottom-20">Conoce los aspectos más importantes sobre la psicología deportiva y el impacto que tiene sobre los deportistas en la actualidad.</p>
-                        <a href="single-evento.html" class="btn-reserv font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
+                        <a href="single-evento.html" class="btn-reserv transition-5 font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
                     </div>
                     <div class="img-mentor">
-                        <img src="img/ment-03.jpg" alt="" class="img-ment width-380px heigth-380px border-radius-md">
+                        <img src="img/ment-03.jpg" alt="" class="img-ment width-380px heigth-380px border-radius-md" data-aos="fade-up" data-aos-duration="800">
                     </div>
                 </div>
                 <div class="item-event width-100">
@@ -129,10 +130,10 @@
                         <h2 class="title-event font-size-30 font-weight-700 color-black margin-bottom-5">Free Webinar. Propiedad Intelectual en el Fútbol</h2>
                         <p class="date-event font-size-16 color-text margin-bottom-50">31 de may, 8:00 p. m. - 9:30 p. m. Webinar</p>
                         <p class="descrip-evetnt font-size-20 margin-bottom-20">Conoce los aspectos más importantes sobre la Propiedad Intelectual en el Fútbol con Juan Carlos Salazar, abogado experto en la materia y fundador de la firma BrandCop Enterprise.</p>
-                        <a href="single-evento.html" class="btn-reserv font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
+                        <a href="single-evento.html" class="btn-reserv transition-5 font-size-16 font-weight-600 padding-x-10 padding-y-30 color-white bg-principal border-radius-15">Reserva tu cupo</a>
                     </div>
                     <div class="img-mentor">
-                        <img src="img/ment-04.jpeg" alt="" class="img-ment width-380px heigth-380px border-radius-md">
+                        <img src="img/ment-04.jpeg" alt="" class="img-ment width-380px heigth-380px border-radius-md" data-aos="fade-up" data-aos-duration="800">
                     </div>
                 </div>
             </div>
@@ -225,6 +226,10 @@
             </div>
         </div>
     </footer>
+
+    <!-- -------------------ANIMATE_AOS---------------------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
     <!-- -----------------cdn slider carousel--------------- -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
