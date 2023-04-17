@@ -107,6 +107,9 @@ body button {
     color: var(--color_white);
     padding: 10px 50px;
 }
+.link-policy {
+    text-decoration: underline;
+}
 
 
 /* ------------------VARIABLE--------------- */
