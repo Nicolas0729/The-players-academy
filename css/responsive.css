@@ -69,10 +69,6 @@
     .absolute-float {
         height: auto;
     }
-    .row-float {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 
 
     /* ---------------CAROUSEL------------------ */
