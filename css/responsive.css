@@ -4,11 +4,14 @@
 
 @media screen and (max-width: 999px) {
     /* -----------HEADER-------------- */
-    .header {
-
+    .content-header {
+        padding: 15px 20px;
     }
     .menu-header {
         display: none;
+    }
+    .logo-header a img {
+        width: 70px;
     }
 
     /* --------------COVER-------------- */
@@ -63,11 +66,72 @@
     .paragraph-float {
         font-size: 20px;
     }
+    .absolute-float {
+        height: auto;
+    }
+    .row-float {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+
+    /* ---------------CAROUSEL------------------ */
+    .content-cards {
+        padding: 20px;
+    }
+
+    /* ---------------CARDS_CURSE--------------- */
+    .head-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .row-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* ---------------GRID_IF----------------- */
+    .content-if {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 30px 20px;
+    }
+    .info-if {
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #17253F;
+    }
+    .title-if {
+        color: #fff;
+        font-size: 20px;
+    }
+    .paragraph-if {
+        color: #fff;
+        font-size: 15px;
+    }
+    .number {
+        color: #fff;
+    }
 
     /* ---------------GRID-PROMO-------------- */
+    .content-promo {
+        padding: 0px 20px;
+    }
     .box-promo {
         width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .text-box {
+        margin-bottom: 20px;
+    }
+    .bot-box {
+        display: flex;
+        flex-flow: row wrap;
     }
 
 
