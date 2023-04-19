@@ -505,3 +505,12 @@
 
 /* -------------OBECT-FIT--------------- */
 .object-cover {object-fit: cover;} 
+
+
+/* --------------LETER_SPACING-------------- */
+.leter-05{letter-spacing: -0.5px;}
+.leter-1{letter-spacing: -1px;}
+.leter-15{letter-spacing: -1.5px;}
+.leter-2{letter-spacing: -2px;}
+.leter-25{letter-spacing: -2.5px;}
+.leter-3{letter-spacing: -3px;}
