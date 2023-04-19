@@ -112,6 +112,7 @@ body button {
 }
 
 
+
 /* ------------------VARIABLE--------------- */
 .color-principal {color: var(--color_principal);}
 .color-secundario {color: var(--color_secundario);}
@@ -216,7 +217,7 @@ body button {
 .img-section, .item-note, .head-note, .img-note-sm, 
 .box-text, .text-qs, .row-access, .item-dep, 
 .text-event, .img-ment, .bio-entidad, .item-cuest, 
-.btn-supp, .card-curse {
+.btn-supp, .card-curse, .card-course {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 .content-plans {
@@ -497,4 +498,16 @@ input[type="number"] {
 .descrip-cuest {
     padding: 10px 20px;
     background-color: var(--fondo_grid_claro);
+}
+
+
+
+
+/* ----------------COURSE-------------- */
+.card-course {
+    border-bottom: 5px solid var(--color_principal);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.card-course:hover .img-course-sg img {
+    transform: scale(1.1);
 }
